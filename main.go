@@ -5,6 +5,7 @@ import(
   
 )
 func main(){
-  fmt.Printf("Hola desde arch\n")
-  variables.VariablesEnteros()
+  estado,texto:=variables.ConviertoaText(9)
+  fmt.Println(estado)
+  fmt.Println(texto)
 }
