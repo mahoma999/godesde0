@@ -4,7 +4,8 @@ import(
   //"runtime"
   //"github.com/mahoma999/godesde0/variables"
   //"github.com/mahoma999/godesde0/ejercicios"
-  "github.com/mahoma999/godesde0/teclado"
+  //"github.com/mahoma999/godesde0/teclado"
+  "github.com/mahoma999/godesde0/ejercicios"
   
 )
 func main(){
@@ -20,6 +21,7 @@ func main(){
   numero,texto:=ejercicios.ConvaNum("ffff")
   fmt.Printf("El numero es %d %s",numero,texto)
   */
-  teclado.IngresoNumero()
+  //teclado.IngresoNumero()
+  ejercicios.Multiplicar()
 
 }
