@@ -1,9 +1,10 @@
 package main
 import(
-  "fmt"
+  //"fmt"
   //"runtime"
   //"github.com/mahoma999/godesde0/variables"
-  "github.com/mahoma999/godesde0/ejercicios"
+  //"github.com/mahoma999/godesde0/ejercicios"
+  "github.com/mahoma999/godesde0/teclado"
   
 )
 func main(){
@@ -16,8 +17,9 @@ func main(){
   }else{
     fmt.Println("Es windpws")
   }
-  */
   numero,texto:=ejercicios.ConvaNum("ffff")
   fmt.Printf("El numero es %d %s",numero,texto)
+  */
+  teclado.IngresoNumero()
 
 }
