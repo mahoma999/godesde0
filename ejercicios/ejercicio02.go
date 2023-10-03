@@ -5,10 +5,11 @@ import(
   "bufio"
   "strconv"
 )
-func Multiplicar(){
+func Multiplicar()string{
   scanner:=bufio.NewScanner(os.Stdin)
   var numero int
   var err error
+  var text string
   for{
     fmt.Println("Da un numero")
     if scanner.Scan(){
@@ -21,7 +22,7 @@ func Multiplicar(){
     }
   }
   for i:=1;i<=10;i++{
-    fmt.Printf("%d X %d = %d\n",i,numero,i*numero)
+    text+=fmt.Sprintf("%d X %d = %d\n",i,numero,i*numero)
   }
-
+    return text
 }

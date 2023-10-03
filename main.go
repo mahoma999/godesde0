@@ -1,6 +1,6 @@
 package main
 import(
-  //"fmt"
+  "fmt"
   //"runtime"
   //"github.com/mahoma999/godesde0/variables"
   //"github.com/mahoma999/godesde0/ejercicios"
@@ -22,6 +22,7 @@ func main(){
   fmt.Printf("El numero es %d %s",numero,texto)
   */
   //teclado.IngresoNumero()
-  ejercicios.Multiplicar()
+ 
+  fmt.Println( ejercicios.Multiplicar())
 
 }
