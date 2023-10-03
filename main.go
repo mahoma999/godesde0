@@ -5,7 +5,7 @@ import(
   //"github.com/mahoma999/godesde0/variables"
   //"github.com/mahoma999/godesde0/ejercicios"
   //"github.com/mahoma999/godesde0/teclado"
-  "github.com/mahoma999/godesde0/ejercicios"
+  "github.com/mahoma999/godesde0/files"
   
 )
 func main(){
@@ -23,6 +23,9 @@ func main(){
   */
   //teclado.IngresoNumero()
  
-  fmt.Println( ejercicios.Multiplicar())
+  //fmt.Println( ejercicios.Multiplicar())
+  fmt.Println("ARCHIVOS")
+  //files.GrabarTabla()
+  files.SumaTabla()
 
 }
