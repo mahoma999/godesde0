@@ -2,7 +2,7 @@ package files
 import(
   "github.com/mahoma999/godesde0/ejercicios"
   "os"
-  //"bufio"
+  "bufio"
   "io/ioutil"
   "fmt"
 )
@@ -48,4 +48,15 @@ func LeerArchivo(){
   fmt.Println(string(archivo))
   
 }
-
+func LeerArchivo2(){
+  archivo,err:=os.Open("./files/txt/tabla.txt")
+  if err!=nil{
+    fmt.Println("error al leer el archivo"+err.Error())
+  }
+  scanner:=bufio.NewScanner(archivo)
+  for scanner.Scan(){
+    linea:=scanner.Text()
+    fmt.Println("> ",linea)
+  }
+  archivo.Close()
+}

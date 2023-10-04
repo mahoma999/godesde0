@@ -27,6 +27,7 @@ func main(){
   fmt.Println("ARCHIVOS")
   //files.GrabarTabla()
   //files.SumaTabla()
-  files.LeerArchivo()
+  //files.LeerArchivo()
+  files.LeerArchivo2()
 
 }
