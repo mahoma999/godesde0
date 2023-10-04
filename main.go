@@ -26,6 +26,7 @@ func main(){
   //fmt.Println( ejercicios.Multiplicar())
   fmt.Println("ARCHIVOS")
   //files.GrabarTabla()
-  files.SumaTabla()
+  //files.SumaTabla()
+  files.LeerArchivo()
 
 }

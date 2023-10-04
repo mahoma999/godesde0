@@ -3,7 +3,7 @@ import(
   "github.com/mahoma999/godesde0/ejercicios"
   "os"
   //"bufio"
-  //"ioutil"
+  "io/ioutil"
   "fmt"
 )
 var filename string="./files/txt/tabla.txt"
@@ -40,3 +40,12 @@ func Append(file string,texto string)bool{
   arch.Close()
   return true
 }
+func LeerArchivo(){
+  archivo,err:=ioutil.ReadFile("./files/txt/tabla.txt")
+  if err!=nil{
+    fmt.Println("error al leer el archivo"+err.Error())
+  }
+  fmt.Println(string(archivo))
+  
+}
+
