@@ -6,7 +6,8 @@ import(
   //"github.com/mahoma999/godesde0/ejercicios"
   //"github.com/mahoma999/godesde0/teclado"
   //"github.com/mahoma999/godesde0/files"
-  "github.com/mahoma999/godesde0/funciones"
+  //"github.com/mahoma999/godesde0/funciones"
+  "github.com/mahoma999/godesde0/arreglos_slice"
 )
 func main(){
   /*estado,texto:=variables.ConviertoaText(9)
@@ -24,11 +25,14 @@ func main(){
   //teclado.IngresoNumero()
  
   //fmt.Println( ejercicios.Multiplicar())
-  fmt.Println("FUNCIONES")
+  fmt.Println("Areglos_slice")
   //files.GrabarTabla()
   //files.SumaTabla()
   //files.LeerArchivo()
-  funciones.Calculos()
-  funciones.LlamarTabla()
+  //funciones.Calculos()
+  //funciones.LlamarTabla()
+  //arreglosslice.MuestrArreglo()
+  arreglosslice.MuestroSlice()
+  arreglosslice.Capacidad()
 
 }
