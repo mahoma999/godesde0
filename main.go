@@ -8,7 +8,8 @@ import(
   //"github.com/mahoma999/godesde0/files"
   //"github.com/mahoma999/godesde0/funciones"
   //"github.com/mahoma999/godesde0/arreglos_slice"
-  "github.com/mahoma999/godesde0/mapas"
+  //"github.com/mahoma999/godesde0/mapas"
+  "github.com/mahoma999/godesde0/users"
 )
 func main(){
   /*estado,texto:=variables.ConviertoaText(9)
@@ -26,7 +27,7 @@ func main(){
   //teclado.IngresoNumero()
  
   //fmt.Println( ejercicios.Multiplicar())
-  fmt.Println("MAPAS")
+  fmt.Println("POO")
   //files.GrabarTabla()
   //files.SumaTabla()
   //files.LeerArchivo()
@@ -35,6 +36,7 @@ func main(){
   //arreglosslice.MuestrArreglo()
   //arreglosslice.MuestroSlice()
   //arreglosslice.Capacidad()
-  mapas.MostrarMapas()
+  //mapas.MostrarMapas()
+  users.AltaUsuario()
 
 }
