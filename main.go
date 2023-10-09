@@ -9,7 +9,9 @@ import(
   //"github.com/mahoma999/godesde0/funciones"
   //"github.com/mahoma999/godesde0/arreglos_slice"
   //"github.com/mahoma999/godesde0/mapas"
-  "github.com/mahoma999/godesde0/users"
+  //"github.com/mahoma999/godesde0/users"
+  "github.com/mahoma999/godesde0/modelos"
+  e "github.com/mahoma999/godesde0/ejercicio_interface"
 )
 func main(){
   /*estado,texto:=variables.ConviertoaText(9)
@@ -27,7 +29,7 @@ func main(){
   //teclado.IngresoNumero()
  
   //fmt.Println( ejercicios.Multiplicar())
-  fmt.Println("POO")
+  fmt.Println("interfaces")
   //files.GrabarTabla()
   //files.SumaTabla()
   //files.LeerArchivo()
@@ -37,6 +39,12 @@ func main(){
   //arreglosslice.MuestroSlice()
   //arreglosslice.Capacidad()
   //mapas.MostrarMapas()
-  users.AltaUsuario()
+  //users.AltaUsuario()
+  var oscar* modelos.Hombre
+  oscar =new(modelos.Hombre)
+  e.HumanoRespirando(oscar)
+  var veronica* modelos.Mujer
+  veronica= new(modelos.Mujer)
+  e.HumanoRespirando(veronica)
 
 }
